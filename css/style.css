@@ -8,8 +8,8 @@
         flex-direction: row;
         height: 100px;
         width: auto;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left: 200px;
+        padding-right: 200px;
         justify-content: space-between;
         align-items: center;
         background-color: #eefbff;       
