@@ -27,3 +27,67 @@
     body header img {
         height: 50px;
     }
+
+    #projetos {
+        display: flex;
+        flex-direction: column;
+        padding-left: 200px;
+        padding-right: 200px;
+        align-items: center ;
+        padding-top: 100px;
+    }
+
+    #projetos h3 {
+        display: flex;
+        flex-direction: row;
+        font-family: "Montserrat", sans-serif;
+        color: #2946a0;
+        font-weight: 700;
+        font-size: 25px;
+    }
+
+    #projetos-div {
+        display: flex;
+        flex-direction: row;
+        font-family: "Montserrat", sans-serif;
+        padding-top: 35px;
+        gap: 80px;
+    }
+
+    #projetos-div img {
+        height: 150px;
+        width: 250px;
+        border-radius: 10px;
+    }
+
+    #projetos-div h4 {
+        display: flex;
+        flex-direction: column;
+        color: #2946a0;
+        font-weight: 700;
+        padding-top: 10px;
+    }
+
+    #projetos-div p {
+        display: flex;
+        flex-direction: column;
+        color: #3F3F3F ;
+        max-width: 250px;
+        padding-top: 10px;
+    }
+
+    #projetos-div button {
+        display: flex;
+        flex-direction: column;
+        border-radius: 8px;
+        height: 50px;
+        width: 100%;
+        margin-top: 10px;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background-color: #f31820;
+        color: white;
+        font-weight: 700;
+        
+    }
