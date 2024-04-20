@@ -8,10 +8,11 @@
         flex-direction: row;
         height: 100px;
         width: auto;
+        padding-left: 100px;
+        padding-right: 100px;
         justify-content: space-between;
         align-items: center;
-        background-color: #eefbff;
-        
+        background-color: #eefbff;       
  }
 
     #nav-txt {
@@ -21,5 +22,8 @@
         font-weight: 700;
         color: #2946a0;
         gap: 20px;
+    }
 
+    body header img {
+        height: 50px;
     }
