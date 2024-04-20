@@ -27,3 +27,62 @@
     body header img {
         height: 50px;
     }
+
+    /* Carrossel */
+
+    .carousel {
+        position: relative;
+        width: 100%;
+        max-width: 100%; /* Ajuste conforme necessário */
+        max-height: 520px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    
+    .slide {
+        display: none;
+    }
+    
+    .slide img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        margin-left: 200px;
+        margin-right: 200px;
+        transform: translateY(-50%);
+        padding: 10px 10px;
+        font-size: 18px;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        height: 30px;
+        
+    }
+
+    
+    
+    
+    .prev {
+        left: 10px;
+    }
+    
+    .next {
+        right: 10px;
+    }
+    
+    
+    
