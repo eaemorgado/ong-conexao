@@ -46,17 +46,42 @@
     .slide img {
         width: 100%;
         height: auto;
+        -webkit-mask-image: linear-gradient(to top, transparent 35%, black 60%);
     }
     
     .text {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, 60%);
         color: white;
         font-size: 24px;
-        text-align: center;
+        text-align: left;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        
     }
+
+    .text p {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .text button {
+        background-color: #f31820;
+        color: #eefbff;
+        font-weight: 700;
+        border: none;
+        border-radius: 10px;
+        height: 50px;
+        width: 300px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+    }
+    
     
     .prev, .next {
         position: absolute;
@@ -87,6 +112,7 @@
         padding-right: 200px;
         align-items: center ;
         padding-top: 100px;
+        
     }
 
     #projetos h3 {
@@ -101,9 +127,10 @@
     #projetos-div {
         display: flex;
         flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
         font-family: "Montserrat", sans-serif;
         padding-top: 35px;
-        gap: 80px;
     }
 
     #projetos-div img {
@@ -149,7 +176,7 @@
         flex-direction: column;
         background-color: #2946a0;
         border-radius: 10px;
-        height: 500px;
+        height: 550px;
         margin-top: 100px;
         padding-left: 250px;
         padding-right: 250px;
@@ -168,6 +195,7 @@
         margin-top: 50px;
         font-size: 20px;
         line-height: auto;
+        line-height: 25px
         
     }
 
@@ -189,11 +217,45 @@
     }
 
     #apoio h4 {
+        margin-top: 50px;
         margin-top: 70px;
         color: #2946a0;
         font-weight: 800;
         font-size: 25px;
     }
+
+    #parceiros {
+        margin-top: 100px;
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+
+    #parceiros h3 {
+        display: flex;
+        justify-content: center;
+        color: #2946a0;
+        font-size: 35px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+    }
+
+    #parceiros p {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: auto;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    #parceiros span {
+        color: #636363;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+       
+        
+    }
+       
+    
 
     #apoio span {
         margin-top: 10px;
@@ -280,3 +342,4 @@
    #apoio-valores button {
     margin-top: 20px;
    }
+   
