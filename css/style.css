@@ -46,17 +46,40 @@
     .slide img {
         width: 100%;
         height: auto;
+        -webkit-mask-image: linear-gradient(to top, transparent 35%, black 60%);
     }
     
     .text {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, 60%);
         color: white;
         font-size: 24px;
-        text-align: center;
+        text-align: left;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        
     }
+
+    .text p {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .text button {
+        background-color: #f31820;
+        color: #eefbff;
+        font-weight: 700;
+        border: none;
+        border-radius: 10px;
+        height: 50px;
+        width: 300px;
+    }
+    
     
     .prev, .next {
         position: absolute;
@@ -189,4 +212,33 @@
 
     #apoio h4 {
         margin-top: 50px;
+    }
+
+    #parceiros {
+        margin-top: 100px;
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+
+    #parceiros h3 {
+        display: flex;
+        justify-content: center;
+        color: #2946a0;
+        font-size: 35px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+    }
+
+    #parceiros p {
+        margin-top: 50px;
+        font-size: 24px;
+        line-height: auto;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    #parceiros span {
+        color: #636363;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        
     }
