@@ -166,7 +166,7 @@
 
     #Missão p {
         margin-top: 50px;
-        font-size: 24px;
+        font-size: 20px;
         line-height: auto;
         
     }
@@ -174,19 +174,56 @@
     #apoio {
         display: flex;
         font-family: "Montserrat", sans-serif;
-        margin-top: 100px;
         padding-left: 250px;
         padding-right: 250px;
     }
 
-    #apoio h3 {
+    #apoio-title {
         display: flex;
         justify-content: center;
         color: #2946a0;
         font-size: 35px;
-    
+        font-family: "Montserrat", sans-serif;
+        margin-top: 100px;
     }
 
     #apoio h4 {
-        margin-top: 50px;
+        margin-top: 70px;
+        color: #2946a0;
+        font-weight: 800;
+        font-size: 25px;
     }
+
+    #apoio span {
+        margin-top: 10px;
+        color: #2946a0;
+    }
+
+   #apoio-info {
+    display: flex;
+    flex-direction: row;
+   }
+
+   #apoio-info div {
+    width: 100%;
+   }
+
+   #apoio-info p {
+    margin-top: 20px;
+    padding-right: 100px;
+   }
+
+   #apoio-doação {
+    margin-top: 70px;
+    font-weight: 800;
+    font-size: 25px;
+    color: #2946a0;
+   }
+
+   #doacao-box {
+    background-color: #2946a0;
+    width: 100px;
+    height: 250px;
+   }
+
+   
