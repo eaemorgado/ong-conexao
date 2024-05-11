@@ -69,13 +69,9 @@
         cursor: pointer;
         border: none;
         border-radius: 5px;
-        height: 30px;
-        
+        height: 30px;   
     }
 
-    
-    
-    
     .prev {
         left: 10px;
     }
@@ -83,8 +79,6 @@
     .next {
         right: 10px;
     }
-    
-    
     
     #projetos {
         display: flex;
@@ -101,7 +95,7 @@
         font-family: "Montserrat", sans-serif;
         color: #2946a0;
         font-weight: 700;
-        font-size: 25px;
+        font-size: 35px;
     }
 
     #projetos-div {
@@ -167,10 +161,30 @@
     #Missão h3 {
         margin-top: 50px;
         font-weight: 700;
-        font-size: 25px;
+        font-size: 35px;
     }
 
     #Missão p {
         margin-top: 50px
         
+    }
+
+    #apoio {
+        display: flex;
+        font-family: "Montserrat", sans-serif;
+        margin-top: 100px;
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+
+    #apoio h3 {
+        display: flex;
+        justify-content: center;
+        color: #2946a0;
+        font-size: 35px;
+    
+    }
+
+    #apoio h4 {
+        margin-top: 50px;
     }
