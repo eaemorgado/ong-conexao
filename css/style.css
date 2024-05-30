@@ -331,3 +331,94 @@
     font-weight: 700;    
    }
 
+   #equipe {
+    background-color: #2946a0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:  150px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    padding-bottom: 50px;
+   }
+
+   #equipe h3 {
+        margin-top: 50px;
+        font-weight: 700;
+        font-size: 35px;
+   }
+
+
+   .grid-container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%; /* 3 columns * 100px + 2 gaps * 10px */
+
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 24px;
+    border-radius: 15px;
+    margin: 10px;
+    margin-bottom: 60px;
+    box-sizing: border-box;
+    position: relative; /* Ensure text is positioned correctly */
+}
+
+.grid-item p {
+    margin-top: 5px;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    position: absolute; /* Position text outside the item */
+    top: 100%; /* Below the grid item */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    white-space: nowrap;
+    font-weight: 700;
+}
+
+#faca-parte {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#faca-parte-btn {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 40px;
+    
+}
+
+#faca-parte-btn button {
+    background-color: #f31820;
+    color: #fff;
+    border-radius: 5px;
+    width: 45%;
+    border: none;
+    height: 50px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#faca-parte h4{
+    font-size: 35px;
+    font-weight: 700;
+}
