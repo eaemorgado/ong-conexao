@@ -498,3 +498,14 @@
     font-weight: 700;
     font-size: 20px;
    }
+
+   #seja-lei {
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10%;
+   }
+
+   #seja-lei span {
+        font-weight: 700;
+   }
