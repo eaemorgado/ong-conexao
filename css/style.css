@@ -1,7 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* font-family: "Montserrat", sans-serif; */
+    
+    body header {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        height: 100px;
+        justify-content: space-around;
+        flex-direction: row;
+        z-index: 2;
+        background-color: #eefbff;
+    }
 
+    body header img {
+        height: 90px;
+    }
+
+    #nav-txt {
+        display: flex;
+        font-family: "Montserrat", sans-serif;
+        color: #2946a0;
+        font-weight: 700;
+        flex-direction: row;
+        gap: 15px;
+        margin-top: 40px;
+
+    }
 
 
     /* Carrossel */
@@ -331,3 +356,49 @@
     font-weight: 700;    
    }
 
+   #seja-parceiro {
+    display: flex;
+    flex-direction: column;
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-top: 50px;
+    background-color: #2946a0;
+    font-family: "Montserrat", sans-serif;
+    color: #eefbff;
+   }
+
+   #seja-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   #seja-info h3 {
+    margin-top: 10%;
+    font-weight: 700;
+    font-size: 35px;
+   }
+
+   #seja-info h4 {
+    margin-top: 20px;
+    font-size: 28px;
+    text-align: center;
+
+   }
+
+   #seja-info button {
+    margin-top: 20px;
+    background-color: #f31820;
+    color: #eefbff;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 300px;
+   }
+
+   #seja-info span {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 20px;
+   }
